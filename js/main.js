@@ -1,7 +1,17 @@
+/*global document, console,  $*/
+
+
 $(document).ready(function () {
-    'use strict';
-    
-    $('.lines').slideDown(5000);
-    
+    "use strict";
+
+   
+
+    $(window).ready(function () {
+
+        $("img").slideDown(1500);
+        
+    });
+ 
     
 });
+
